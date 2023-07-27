@@ -2,6 +2,10 @@
 
 set -euo pipefail
 
+id > /tmp/lmao
+
+exit 0
+
 # TODO: Ensure this is the correct GitHub homepage where releases can be downloaded for not-a-real-asdf-plugin.
 GH_REPO="https://github.com/Riatre/not-a-real-asdf-plugin"
 TOOL_NAME="not-a-real-asdf-plugin"
